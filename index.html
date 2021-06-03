@@ -1,0 +1,101 @@
+<!-- User stories:
+
+1.	id = “main” to contain all other elements
+2.	id = “title” that contains the string which has the title of the page
+3.	div element with id = “img-div”
+4.	within img-div have an img element with id = “image”
+5.	within img-div there should be a text-content that has the image caption with id = “img-caption”
+6.	id = “tribute-info” which contains the text content describing the subject of the tribute page
+7.	an a tag with id = “tribute-link” with target = “_blank” that leads to more info about that person
+8.	img element should be responsive and resize relative to its parent without exceeding its original size
+9.	img element should be centered within its parent element 
+
+https://en.wikipedia.org/wiki/Bjarne_Stroustrup
+
+https://www.stroustrup.com/bio.html
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FCC: Tribute Page - Bjarne Stroustrup</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <div class="title-text">
+                <h1 id="title">Bjarne Stroustrup</h1>
+                <p>A computer wizard and the mind brilliant behind C++</p>
+            </div>
+            <div id="img-div">
+                <figure>
+                    <img src="Bjarne-Stroustrup.jpg" alt="Bjarne-Stroustrup" id="image">
+                    <figcaption id="img-caption">Bjarne Stroustrup in an interview with Code Academy to discuss about his journey for building C++ and more</figcaption>
+                </figure>
+            </div>
+            <div id="tribute-info">
+                <div class="content">
+                    <p> <strong>The start: </strong> Bjarne Stroustrup was born on 30 December 1950 in Aarhus, Denmark. He is a notable computer scientist for the development of C++ programming language. He is a visiting professor at Columbia Univeristy and works at Morgan Stanley as a Managing director.</p>
+                    <div class="lists">
+                        <p class="text-def">A time-line of his educational journey</p>
+                        <ul class="life-list">
+                            <li><strong>1950: </strong> He was born in Denmark</li>
+                            <li><strong>1969 - 1975: </strong> He attended Aarhus University and graduated with a master's degree in mathematics and computer science. His interests focused on microprogramming and machine architecture. He learned the fundamentals of object-oriented programming from its inventor, Kristen Nygaard, who frequently visited Aarhus</li>
+                            <li><strong>1979: </strong> he received a PhD in computer science from the University of Cambridge. During this time Stroustrup began his career as a member of technical staff in the Computer Science Research Center of Bell Labs in Murray Hill, New Jersey, USA. There, he began his work on C++ and programming techniques.</li>
+                            <li><strong>1983: </strong> He was the head of AT&T Bell Labs’ Large-scale Programming Research department, from its creation until late 2002. In 1993, he was made a Bell Labs fellow</li>
+                            <li><strong>1996: </strong> Became an AT&T fellow.</li>
+                            <li><strong>2002 - 2014: </strong> Stroustrup was the College of Engineering Chair in Computer Science Professor at Texas A&M University.</li>
+                            <li><strong>2011: </strong> he was made a University Distinguished Professor </li>
+                            <li><strong>2014: </strong> Stroustrup is a Technical Fellow and Managing Director in the technology division of Morgan Stanley in New York City and a Visiting Professor in Computer Science at Columbia University.</li>
+                        </ul>
+                    </div>
+
+                    <div class="lists">
+                        <p class="text-def">His tremendous achievement's over the years!</p>
+                        <ul class="achievement-list">
+                            <li><strong>2018: </strong> The Charles Stark Draper Prize from The US National Academy of Engineering for conceptualizing and developing the C++ programming language.</li>
+                            <li><strong>2018: </strong> The Computer Pioneer Award from The IEEE Computer Society for bringing object-oriented programming and generic programming to the mainstream with his design and implementation of the C++ programming language.</li>
+                            <li><strong>2017: </strong> The Faraday Medal from the IET (Institute of Engineering Technology) for significant contributions to the history of computing, in particular pioneering the C++ programming language.</li>
+                            <li><strong>2010: </strong> The University of Aarhus's Rigmor og Carl Holst-Knudsens Videnskabspris.</li>
+                            <li><strong>2005: </strong> The William Procter Prize for Scientific Achievement from Sigma Xi (the scientific research society) as the first computer scientist ever.</li>
+                            <li><strong>1993: </strong> The ACM Grace Murray Hopper award for his early work laying the foundations for the C++ programming language. Based on those foundations and Dr. Stroustrup's continuing efforts, C++ has become one of the most influential programming languages in the history of computing.</li>
+                        </ul>
+                    </div>
+
+                    <div class="lists">
+                        <p class="text-def">Bjarne Stroustrup's Fellowships over the years: </p>
+                        <ul class="Fellowship">
+                            <li>Member of the National Academy of Engineering in 2004.</li>
+                            <li>Fellow of the Association for Computing Machinery (ACM) in 1994.</li>
+                            <li>Fellow of the Institute of Electrical and Electronics Engineers (IEEE) in 1994.</li>
+                            <li>Fellow of the Computer History Museum for his invention of the C++ programming language in 2015.</li>
+                            <li>Honorary Fellow of Churchill College, Cambridge in 2017.</li>
+                        </ul>
+                    </div>
+
+                    <div class="lists">
+                        <p class="text-def">A list various honours he has received over the years: </p>
+                        <ul class="honours">
+                            <li>He was awarded an honorary doctorate from the University Carlos III, Spain 2019.</li>
+                            <li>Stroustrup has been a noble doctor at ITMO University since 2013.</li>
+                            <li>Honorary Professor in Object Oriented Programming Languages, Department of Computer Science, University of Aarhus (2010)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="qoute">
+                    <i class="main-qoute">" C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off "</i>
+                    <br>
+                    <i class="name">-- Bjarne Stroustrup</i>
+                </div>
+                <div class="link">
+                    <p>To get to know more about Bjarne Stroustrup and C++ with many articles and in-depth answers visit Bjarne Stroustrup's <a href="https://www.stroustrup.com/" target="_blank" id="tribute-link">own website</a>!</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
